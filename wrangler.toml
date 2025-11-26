@@ -1,4 +1,5 @@
-name = "my-bini-app"
+# wrangler.toml
+name = 'cloudeflare-testing'
 main = "dist/api"
 compatibility_date = "2025-11-27"
 type = "javascript"
@@ -7,3 +8,4 @@ type = "javascript"
 command = "npm run build"
 upload.format = "modules"
 upload.dir = "dist"
+
